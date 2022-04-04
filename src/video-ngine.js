@@ -1,28 +1,3 @@
-var videosOnPage = [
-  {
-    videoId: "backgroundvideo",
-    controllerId: "background-controls",
-    mp4: "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/uploader/hills3_web.mp4",
-    webm: "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/uploader/hills3_web.webm",
-    mp4Mob:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/uploader/hills3_mob.mp4",
-    webmMob:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/uploader/hills3_mob.webm"
-  },
-  {
-    videoId: "backgroundvideo2",
-    controllerId: "background-controls2",
-    mp4:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/bpsi/BPSI%20intro%20video.mp4",
-    webm:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/bpsi/BPSI%20intro%20video.webm",
-    mp4Mob:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/bpsi/BPSI%20intro%20video%20mob.mp4",
-    webmMob:
-      "https://filedn.com/lODGkE8bRyjVm8tpT986SXj/bpsi/BPSI%20intro%20video%20mob.webm"
-  }
-];
-
 var videoId = [];
 var i;
 for (i = 0; i < videosOnPage.length; i++) {
